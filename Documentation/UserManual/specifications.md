@@ -97,9 +97,9 @@ the following interpretation applies:
 
 | Type           | Meaning                                                                               | Success criteria                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Required**   | A matching property is required in the model                                          | Matching entities have a ePset_SpaceOMA/TravelDirection property of type IFCLABEL and non null value      |
-| **Prohibited** | A matching property cannot be present in the model                                    | Matching entities don't have a property TravelDirection in the ePset_SpaceOMA property set                |
-| **Optional**   | Expectations of a propertySet/property and value constrains are defined, but optional | Matching entities either don't have the property, or if they do, it is of the expected datatype and value |
+| **required**   | A matching property is required in the model                                          | Matching entities have a ePset_SpaceOMA/TravelDirection property of type IFCLABEL and non null value      |
+| **prohibited** | A matching property cannot be present in the model                                    | Matching entities don't have a property TravelDirection in the ePset_SpaceOMA property set                |
+| **optional**   | Expectations of a propertySet/property and value constrains are defined, but optional | Matching entities either don't have the property, or if they do, it is of the expected datatype and value |
 
 As a complete example, you might have a **Required** specification that applies to wall entities, that are **Prohibited** from being load-bearing, if you wanted your model to not contain any load-bearing walls.
 
