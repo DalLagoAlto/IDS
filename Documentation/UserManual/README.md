@@ -35,4 +35,4 @@ If you need help, please feel free to ask for help on the [buildingSMART Forums]
  1. [Learn how to use the **Property Facet**](property-facet.md)
  1. [Learn how to use the **Material Facet**](material-facet.md)
  1. [Learn how to use the **PartOf Facet**](partof-facet.md)
- 1. [Are you a software developer? Read the developer guide!](developer-guide.md)
+ 1. [Are you a software developer? Read the developer guide!](../ImplementersDocumentation/developer-guide.md)
