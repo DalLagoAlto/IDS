@@ -30,5 +30,4 @@ When the `relation` parameter is not specified, then all 6 are to be considered 
 | Any entity that is directly or indirectly part of a curtain wall | The entity (e.g. mullion) must be part of a curtain wall     | Entity="IFCCURTAINWALL"                                         |
 | Any entity that is part of a distribution system                 | The entity (e.g. duct) must be part of a distribution system | Relation="IFCRELASSIGNSTOGROUP", Entity="IFCDISTRIBUTIONSYSTEM" |
 | Any entity that is located in a space                            | The entity (e.g. pump) must be located in a space            | Relation="IFCRELCONTAINEDINSPATIALSTRUCTURE", Entity="IFCSPACE" |
-| Any entity that hosted by a hand wash basin                      | The entity (e.g. faucet) must be fixed on a hand wash basin  | Relation="IFCRELNESTS", Entity="IFCSANITARYTERMINAL"            |
-| Any window that hosted by a hand wash basin                      | The entity (e.g. faucet) must be fixed on a hand wash basin  | Relation="IFCRELNESTS", Entity="IFCSANITARYTERMINAL"            |
+| Any entity that is hosted by a wall                              | The entity (e.g. window) must be fixed on a wall             | Relation="IFCRELNESTS", Entity="IFCWALL"                        |
