@@ -12,27 +12,32 @@ An IDS is a file format ending in `.ids` containing a list of information **Spec
 
 IDS file creation tools and model checking tools are provided by many [software vendors](https://technical.buildingsmart.org/ids-software-implementations/). Any IFC model produced from any software can be checked against an IDS file.
 
-## Beginners tutorial
+## The IDS structure
 
- 1. Choose software that supports IDS (see [list of tools supporting IDS](https://technical.buildingsmart.org/ids-software-implementations/)).
+![IDS Diagram](Graphics/IDS-1.0-schema.svg)
+
+Each IDS file can be described with [metadata](ids-metadata.md), and can contain one or more [specifications](specifications.md). Specifications consist of two parts: applicability - describing what elements are subject to this specification, and requirements - listing what those applicable elements should or shouldn't have. Both applicability and requirements are built with facets, such as property, entity, classification, material or partOf.
+
+## How to start
+
+ 1. Choose software that supports IDS checking (see [list of tools supporting IDS](https://technical.buildingsmart.org/ids-software-implementations/)).
  2. Download a [sample IDS file](../Examples/IDS_wooden-windows.ids).
  3. Download a [sample IFC model](../Examples/IDS_wooden-windows_IFC.ifc) to check against the IDS.
  4. Load both the IDS and the IFC in your software and begin the checking process.
  5. You should obtain a report of all the non-compliances.
 
-That's it! You may also find more sample IDS files in the [Examples](../Examples).
+That's it! You may also find more sample IDS files in the [Examples](../Examples). If you need help, please feel free to ask for help on the [buildingSMART Forums](https://forums.buildingsmart.org/).
 
-If you need help, please feel free to ask for help on the [buildingSMART Forums](https://forums.buildingsmart.org/).
+## Learn more about IDS
 
-## Begin learning about IDS
+ 1. [How **Specifications** work?](specifications.md)
+ 2. [Guidelines on specifying good **Specification** metadata](ids-metadata.md)
+ 3. [Learn how to specify **Complex Restrictions**](restrictions.md)
+ 4. [Learn how to use the **Entity Facet**](entity-facet.md)
+ 5. [Learn how to use the **Attribute Facet**](attribute-facet.md)
+ 6. [Learn how to use the **Classification Facet**](classification-facet.md)
+ 7. [Learn how to use the **Property Facet**](property-facet.md)
+ 8. [Learn how to use the **Material Facet**](material-facet.md)
+ 9. [Learn how to use the **PartOf Facet**](partof-facet.md)
+ 10. [Are you a software developer? Read the developer guide!](../ImplementersDocumentation/developer-guide.md)
 
- 1. [How does a **Specification** work?](specifications.md)
- 1. [Guidelines on specifying good **Specification** metadata](ids-metadata.md)
- 1. [Learn how to specify **Complex Restrictions**](restrictions.md)
- 1. [Learn how to use the **Entity Facet**](entity-facet.md)
- 1. [Learn how to use the **Attribute Facet**](attribute-facet.md)
- 1. [Learn how to use the **Classification Facet**](classification-facet.md)
- 1. [Learn how to use the **Property Facet**](property-facet.md)
- 1. [Learn how to use the **Material Facet**](material-facet.md)
- 1. [Learn how to use the **PartOf Facet**](partof-facet.md)
- 1. [Are you a software developer? Read the developer guide!](../ImplementersDocumentation/developer-guide.md)
