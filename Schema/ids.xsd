@@ -260,7 +260,8 @@
 			<xs:enumeration value="IFCRELASSIGNSTOGROUP"/> 
 			<xs:enumeration value="IFCRELCONTAINEDINSPATIALSTRUCTURE"/> 
 			<xs:enumeration value="IFCRELNESTS"/> 
-			<xs:enumeration value="IFCRELVOIDSELEMENT IFCRELFILLSELEMENT"/> 
+			<xs:enumeration value="IFCRELVOIDSELEMENT"/> 
+			<xs:enumeration value="IFCRELFILLSELEMENT"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="upperCaseName">
