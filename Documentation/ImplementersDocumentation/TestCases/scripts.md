@@ -1422,6 +1422,15 @@ Requirements:
 Material: ''Foo''
 ```
 
+### A layer set name will pass the value check
+
+``` ids material/pass-a_layer_set_name_will_pass_a_value_check.ids
+A layer set name will pass the value check
+Entity: ''IFCWALL''
+Requirements:
+Material: ''Bar''
+```
+
 ## partof
 
 ### A group entity must match exactly 1/2
